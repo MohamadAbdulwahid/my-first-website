@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Common HTML Tags</title>
+        <link rel="stylesheet" href="../styles.css">
+    </head>
+    <body>
+        <nav>
+            <ol>
+                <li><a href="../index.html">Main Page</a></li>
+                <li><a href="./html-cheatsheet.html">HTML Cheatsheet</a></li>
+                <li>Common HTML Tags</li>
+            </ol>
+        </nav>
+
+        <h1>Common HTML Tags</h1>
+
+        <main>
+            <section>
+                <h3>Headings</h3>
+                <p>
+                    HTML headings are defined with the &lt;h1&gt; to &lt;h6&gt; tags. <br>
+                    <code>
+                        &lt;h1&gt;Heading 1&lt;/h1&gt; <br>
+                        &lt;h2&gt;Heading 2&lt;/h2&gt; <br>
+                        &lt;h3&gt;Heading 3&lt;/h3&gt; <br>
+                        &lt;h4&gt;Heading 4&lt;/h4&gt; <br>
+                        &lt;h5&gt;Heading 5&lt;/h5&gt; <br>
+                        &lt;h6&gt;Heading 6&lt;/h6&gt;
+                    </code>
+                </p>
+            </section>
+
+            <section>
+                <h3>DOCTYPE</h3>
+                <p>
+                    The &lt;!DOCTYPE&gt; declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in. <br>
+                    <code>
+                        &lt;!DOCTYPE html&gt;
+                        &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"&gt;
+                    </code>
+                </p>
+            </section>
+
+            <section>
+                <h3>&lt;em&gt;</h3>
+                <p>
+                    The &lt;em&gt; tag is used to emphasize (italic) text. <br>
+                    <code>
+                        &lt;em&gt;This text is emphasized&lt;/em&gt;
+                    </code>
+                    preview: <em>This text is emphasized</em>
+                </p>
+            </section>
+
+            <section>
+                <h3>b and strong</h3>
+                <p>
+                    The &lt;b&gt; tag is used to bold text, and the &lt;strong&gt; tag is used to highlight text. <br>
+                    <code>
+                        &lt;b&gt;This text is bold&lt;/b&gt; <br>
+                        &lt;strong&gt;This text is highlighted&lt;/strong&gt;
+                    </code>
+                </p>
+            </section>
+            
+            <section>
+                <h3>a (hyperlinks)</h3>
+                <p>
+                    The &lt;a&gt; tag defines a hyperlink, which is used to link from one page to another. <br>
+                    <code>
+                        &lt;a href="https://www.w3schools.com"&gt;Visit W3Schools.com!&lt;/a&gt;
+                    </code>
+                    preview: <a href="https://www.w3schools.com">Visit W3Schools.com!</a>
+                    
+                    <b>target="_blank"</b> attribute is used to open the link in a new tab. <br>
+                </p>
+            </section>
+
+            <section>
+                <h3>img (images)</h3>
+                <p>
+                    The &lt;img&gt; tag is used to embed an image in an HTML page. <br>
+                    <code>
+                        &lt;img src="img.jpg" alt="My image"&gt;
+                    </code>
+                </p>
+            </section>
+
+            <section>
+                <h3>ul, ol, li</h3>
+                <p>
+                    The &lt;ul&gt; tag defines an unordered (bulleted) list, and the &lt;ol&gt; tag defines an ordered (numbered) list. <br>
+                    The &lt;li&gt; tag is used to define a list item. <br>
+                    <code>
+                        &lt;ul&gt; <br>
+                        &emsp;&lt;li&gt;Coffee&lt;/li&gt; <br>
+                        &emsp;&lt;li&gt;Tea&lt;/li&gt; <br>
+                        &emsp;&lt;li&gt;Milk&lt;/li&gt; <br>
+                        &lt;/ul&gt; <br>
+                        <br>
+                        &lt;ol&gt; <br>
+                        &emsp;&lt;li&gt;Coffee&lt;/li&gt; <br>
+                        &emsp;&lt;li&gt;Tea&lt;/li&gt; <br>
+                        &emsp;&lt;li&gt;Milk&lt;/li&gt; <br>
+                        &lt;/ol&gt;
+                    </code>
+                </p>
+                preview: <br>
+                <ul>
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Milk</li>
+                </ul>
+                <ol>
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Milk</li>
+                </ol>
+                
+            </section>
+
+            <section>
+                <h3>comments</h3>
+                <p>
+                    The &lt;!-- --&gt; tag is used to add comments to the code. <br>
+                    <code>
+                        &lt;!-- This is a comment --&gt;
+                    </code>
+                </p>
+            </section>
+
+            <section>
+                <h3>button</h3>
+                <p>
+                    The &lt;button&gt; tag defines a clickable button. <br>
+                    <code>
+                        &lt;button&gt;Click me!&lt;/button&gt;
+                    </code>
+                    preview: <button>Click me!</button><br>
+
+                    attribute <b>type="button"</b> is used to specify the type of the button. <br>
+                    attribute <b>onclick="alert('Hello!')"</b> is used to specify the action when the button is clicked. <br>
+
+                    button as link: <br>
+                    <code>
+                        &lt;button onclick="window.location.href='https://www.w3schools.com'"&gt;Visit W3Schools.com!&lt;/button&gt;
+                    </code>
+                </p>
+            </section>
+        </main>
+    </body>
+</html>
